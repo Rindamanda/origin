@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  color: #2B546A;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  font-family: Lato, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url("/images/retrosupply-jLwVAUtLOAQ-unsplash.jpg");
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+select {
+  font: inherit;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  box-shadow: 0 0 0 1000px #FCFCFD inset;
+}
+
+a {
+  text-decoration: none;
+}
+
+.errors {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ED5974;
+  border: 1px solid #e29a9a;
+  padding: 12px 34px;
+  line-height: 1.6;
+  border-radius: 6px;
+  list-style: outside;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+form > p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+form > a {
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 10px auto 0;
+  color: #A4B5C8;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+input {
+  width: 100%;
+  padding: 16px 20px;
+  line-height: 1.8;
+  border: 1px solid #d5dee8;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  color: #2B546A;
+}
+
+input:hover{
+  border-color: #b6c4d2;
+  box-shadow: 0px 0px 12px 1px rgba(160, 195, 247, 0.2);
+}
+
+input:focus {
+  border-color: #b6c4d2;
+}
+
+input[name="title"] {
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4CCFC9;
+  height: 54px;
+  padding: 0 90px;
+  border-radius: 27px;
+  width: 60%;
+  display: block;
+  margin: 80px auto 0;
+}
+
+input[type="submit"]:hover {
+  background-color: #2DC2BC;
+  cursor: pointer;
+}
+
+
+
+.sign {
+  border-top: 20px solid #88E7CE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.sign > .container {
+  width: 550px;
+  padding: 60px 0;
+}
+
+.sign > .container > p {
+  margin-top: 36px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sign > .container > p > a {
+  display: inline-block;
+  margin-left: 20px;
+  color: #4CCFC9;
+}
+
+.sign > .container > p > a:hover {
+  color: #2DC2BC;
+}
+
+.sign > .container form {
+  padding-top: 40px;
+}
+
+.sign .panel {
+  padding: 60px 80px 40px;
+  background-color: #FEDCBD;
+}
+
+.sign h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.sign h1 > a {
+  color: #2B546A;
+}
+
+.sign h1 > a:hover {
+  color: #2b6d90;
+}
+
+.sign h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.sign form > p {
+  margin-bottom: 10px;
+}
+
+.sign input {
+  padding: 10px 20px;
+}
+
+.sign input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+.sign input[name="username"] {
+  margin-bottom: 30px;
+}
+
+.sign input[name="email"] {
+  margin-bottom: 30px;
+}
+
+.sign input[type="submit"] {
+  margin-top: 50px;
+  width: 90%;
+}
+
+input[type="submit"].btn-confirm {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #E75252;
+  height: 44px;
+  padding: 0 65px;
+  border-radius: 22px;
+  margin: 0 auto;
+}
+
+input[type="submit"].btn-confirm:hover {
+  background-color: #D84444;
+}
+
+input[type="submit"].btn-confirm.sub {
+  background-color: #B7C7DF;
+}
+
+input[type="submit"].btn-confirm.sub:hover {
+  background-color: #A9B9D2;
+}
+
+
+
